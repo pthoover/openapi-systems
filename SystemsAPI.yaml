@@ -3150,6 +3150,7 @@ components:
         - SGE
         - UGE
         - TORQUE
+        - KUBERNETES
     SchedulerHiddenOptionEnum:
       type: string
       enum:
