@@ -3250,6 +3250,7 @@ components:
         - DOCKER
         - SINGULARITY
         - ZIP
+        - KUBERNETES
     SchedulerTypeEnum:
       type: string
       enum:
@@ -3259,7 +3260,7 @@ components:
         - SGE
         - UGE
         - TORQUE
-        - KUBERNETES
+        - KUBE_VOYAGER
     SchedulerHiddenOptionEnum:
       type: string
       enum:
